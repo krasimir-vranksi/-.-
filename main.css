@@ -1,0 +1,25 @@
+html,body{
+  font-family: Calibri, Arial;
+  line-height: 1.3rem;
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav a{
+
+}
+
+h2{
+  color: rgb(45,114,175);
+}
+section{
+  padding: 0.5rem
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
