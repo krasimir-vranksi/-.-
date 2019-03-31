@@ -1,7 +1,7 @@
 html,body{
   font-family: Calibri, Arial;
   line-height: 1.3rem;
-
+  font-size: 1rem;
 }
 nav{
   display: flex;
@@ -11,15 +11,85 @@ nav{
 nav a{
 
 }
-
+h1 {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  text-align: center;
+}
 h2{
   color: rgb(45,114,175);
 }
+.icon{
+  fill: rgb(45,114,175);
+}
 section{
-  padding: 0.5rem
+  padding: 0.5rem;
+  font-size: 1.5rem;
+    line-height: 2rem;
 }
 footer{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.socials{
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) and (max-width: 3000px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  nav.menu{
+    flex-direction: row;
+  }
+
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  header{
+    position: relative;
+  }
+  header .logo{
+    width: 100%;
+
+  }
+  h1{
+    color: #fff;
+
+
+  }
+  h1 .top{
+    position: absolute;
+    top: 1.2rem;
+    left: 0;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  h1 .bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.2rem 5rem;
+    font-size: 1.8rem;
+  }
+  nav.menu{
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  }
+  nav.menu a{
+    font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
 }
