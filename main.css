@@ -25,7 +25,8 @@ h1 {
   text-align: center;
   color: rgb(45, 114, 175);
 }
-h2 {
+h2,
+h3 {
   color: rgb(45, 114, 175);
   line-height: 2.5rem;
 }
