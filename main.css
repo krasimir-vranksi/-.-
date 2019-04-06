@@ -89,8 +89,9 @@ footer {
     font-size: 1.1rem;
     line-height: 1.7rem;
   }
-  nav.socials {
+  .socials {
     flex-direction: row;
+    justify-content: space-around;
     padding: 2rem 0;
   }
 }
@@ -130,6 +131,7 @@ footer {
   }
   .socials {
     flex-direction: row;
+    justify-content: space-around;
     padding: 2rem 0;
   }
 }
