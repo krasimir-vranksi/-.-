@@ -1,95 +1,187 @@
-html,body{
+html,
+body {
   font-family: Calibri, Arial;
   line-height: 1.3rem;
   font-size: 1rem;
 }
-nav{
+.menu,
+.socials {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
-nav a{
-
+nav.menu a {
+  box-shadow: 0px -1px 4px #6a6a6a;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background: rgb(45, 114, 175);
+  color: #fff;
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
 }
 h1 {
   font-size: 2rem;
   line-height: 2.3rem;
   text-align: center;
+  color: rgb(45, 114, 175);
 }
-h2{
-  color: rgb(45,114,175);
+h2 {
+  color: rgb(45, 114, 175);
+  line-height: 2.5rem;
 }
-.icon{
-  fill: rgb(45,114,175);
+.icon {
+  fill: rgb(45, 114, 175);
 }
-section{
-  padding: 0.5rem;
-  font-size: 1.5rem;
-    line-height: 2rem;
-}
-footer{
+
+footer {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.socials{
-  padding: 2rem 0;
+
+.action {
+  border: 1px solid rgb(45, 114, 175);
+  max-width: 22rem;
+  padding: 1rem 2rem;
+  margin: auto;
+  background: rgb(45, 114, 175);
+  color: #fff;
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  font-size: 1.3rem;
+  box-shadow: 0px -1px 4px #6a6a6a;
 }
 
-@media (min-width: 768px) and (max-width: 3000px) {
-  header{
+@media (min-width: 1024px) and (max-width: 3000px) {
+  body {
+    margin: auto;
+    max-width: 70rem;
+  }
+  header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
     justify-content: flex-start;
   }
 
-  nav.menu{
+  nav.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 3rem;
+  }
+
+  header .logo {
+    display: block;
+    margin: auto;
+  }
+
+  nav.menu {
+    display: flex;
     flex-direction: row;
   }
+  body {
+    margin: auto;
+  }
+  section {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  nav.socials {
+    flex-direction: row;
+    padding: 2rem 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
 
+  header .logo {
+    display: block;
+    margin: auto;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 3rem;
+  }
+  .top {
+    white-space: nowrap;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+  body {
+    margin: 0 2rem;
+    max-width: 60rem;
+  }
+  section {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .socials {
+    flex-direction: row;
+    padding: 2rem 0;
+  }
 }
 @media (min-width: 360px) and (max-width: 768px) {
-  header{
+  body {
+    margin: 20px;
+  }
+  header {
     position: relative;
   }
-  header .logo{
+  header .logo {
     width: 100%;
-
   }
-  h1{
+
+  section {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  h1 {
     color: #fff;
-
-
   }
-  h1 .top{
+  h1 .top {
     position: absolute;
     top: 1.2rem;
     left: 0;
     font-size: 1.5rem;
     padding: 1rem;
   }
-  h1 .bottom{
+  h1 .bottom {
     position: absolute;
     bottom: 0;
     left: 0;
     padding: 1.2rem 5rem;
     font-size: 1.8rem;
   }
-  nav.menu{
-
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+  .menu {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
   }
-  nav.menu a{
+  .menu a {
     font-size: 2rem;
-  line-height: 3rem;
-  text-align: center;
-  text-decoration: none;
-}
-
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .socials {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+  }
 }
