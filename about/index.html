@@ -2,12 +2,14 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/swiper.css" />
-    <script src="./js/swiper.min.js"></script>
-    <title>Кандидат в Губернаторы Санкт-Петербурга Красимир Врански</title>
+    <link rel="stylesheet" href="../styles/swiper.css" />
+    <script src="../js/swiper.min.js"></script>
+    <title>
+      Кандидат в Губернаторы Санкт-Петербурга Красимир Врански | О кандидате
+    </title>
   </head>
 
   <body>
@@ -16,45 +18,57 @@
         <span class="top"
           >Кандидат в Губернаторы <nobr>Санкт-Петербурга</nobr></span
         >
-        <img class="logo" src="./icons/logo.svg" alt="Эмблема" />
+        <img class="logo" src="../icons/logo.svg" alt="Эмблема" />
         <span class="bottom">Красимир Врански</span>
       </h1>
     </header>
     <nav class="menu">
-      <a href="#">Главная</a>
-      <a href="./about">О кандидате</a>
-      <a href="./manifest">Манифест</a>
-      <a href="./program/">Программа</a>
+      <a href="/">Главная</a>
+      <a href="#">О кандидате</a>
+      <a href="../manifest">Манифест</a>
+      <a href="../program">Программа</a>
     </nav>
-    <section class="slider">
-      <!-- Slider main container -->
-      <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img width="100%" src="./images/1.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/2.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/3.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/4.jpg" />
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-      </div>
+    <section id="about">
+      <p>
+        Меня зовут Красимир Врански, я петербуржец, и у меня есть мечта. Я вижу
+        наш город красивым, зелёным и безопасным. Я вижу город с удобным
+        общественным транспортом, который ходит часто и по расписанию, где люди
+        не стоят в часовых пробках. Город с чистыми широкими тротуарами. Город
+        тенистых парков и зелёных дворов, где приятно прогуляться и солнечным
+        летом, и под покровом зимних облаков. Город, где легко растить детей и
+        заниматься спортом. Город, где не страшно заболеть, потому что легко
+        получить медицинскую помощь, а среда проживания доступна для всех.
+      </p>
+      <p>
+        7 лет Красимир помогает горожанам решать проблемы городской среды
+        <a href="http://xn--80accfiasjf8cghbfut2k.xn--p1ai/about"
+          >35 000 проблем</a
+        >
+        удалось решить Красимиру вместе с соратниками
+      </p>
+      <h2>Масштабные проекты, основанные Красимиром Врански</h2>
+      <p>
+        50 000 петербуржцев Объединились в рамках
+        <nobr>
+          движения
+          <a href="http://vk.com/peterburg_krasiv"
+            >“Красивый Петербург”</a
+          ></nobr
+        >, чтобы решать проблемы города
+      </p>
+      <p>15 000 кедров Посажено в рамках кампании по озеленению города</p>
+      <p>
+        70 парков города Защищены от застройки и вырубки
+        <nobr>
+          движением
+          <a href="https://vk.com/greencospb">“Зеленая коалиция”</a></nobr
+        >
+      </p>
+      <p>
+        50 км велодорожек Проложено благодаря деятельности
+        <a href="https://www.youtube.com/watch?v=nlf0RdfIVyw">велокоалиции</a>
+      </p>
     </section>
 
     <footer>
@@ -138,28 +152,5 @@
         </a>
       </nav>
     </footer>
-    <script>
-      var mySwiper = new Swiper(".swiper-container", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination"
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar"
-        }
-      });
-    </script>
   </body>
 </html>

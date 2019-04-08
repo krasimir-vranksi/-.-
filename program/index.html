@@ -2,12 +2,14 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/swiper.css" />
-    <script src="./js/swiper.min.js"></script>
-    <title>Кандидат в Губернаторы Санкт-Петербурга Красимир Врански</title>
+    <link rel="stylesheet" href="../styles/swiper.css" />
+    <script src="../js/swiper.min.js"></script>
+    <title>
+      Кандидат в Губернаторы Санкт-Петербурга Красимир Врански | Программа
+    </title>
   </head>
 
   <body>
@@ -16,45 +18,38 @@
         <span class="top"
           >Кандидат в Губернаторы <nobr>Санкт-Петербурга</nobr></span
         >
-        <img class="logo" src="./icons/logo.svg" alt="Эмблема" />
+        <img class="logo" src="../icons/logo.svg" alt="Эмблема" />
         <span class="bottom">Красимир Врански</span>
       </h1>
     </header>
     <nav class="menu">
-      <a href="#">Главная</a>
-      <a href="./about">О кандидате</a>
-      <a href="./manifest">Манифест</a>
-      <a href="./program/">Программа</a>
+      <a href="/">Главная</a>
+      <a href="../about">О кандидате</a>
+      <a href="../manifest/">Манифест</a>
+      <a href="#">Программа</a>
     </nav>
-    <section class="slider">
-      <!-- Slider main container -->
-      <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img width="100%" src="./images/1.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/2.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/3.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img width="100%" src="./images/4.jpg" />
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-      </div>
+        
+    <section id="program">
+        <h2>Программа</h2>
+        <h3>Чего мы хотим добиться?
+            </h3>
+        <p>Диалога! Давайте разговаривать! Чиновники обязаны слушать людей. Власть обязана общаться с бизнесом. Бизнес должен говорить с простыми жителями. Разобщённость губит наше общество. Желание говорить, понимать и договариваться – двигает всех нас вперед!
+        </p>
+        <p>
+            Став губернатором, я обеспечу:
+            <ol>
+                <li>открытость всех действий госслужащих, за исключением тех, что связаны с гостайной;</li>
+                <li>упрощение структур власти, чтобы всем было понятно, кто чем занимается;</li>
+                <li>широкое общественное обсуждение каждого нового проекта – до того, как будет принято решение о его запуске или закрытии;</li>
+                <li>независимые и честные городские СМИ;</li>
+                <li>cхемы принятия решений, важных для горожан и бизнеса, будут прозрачны и визуализированы;</li>
+                <li>в прозрачной системе не получится осваивать бюджетные средства в собственный карман.</li>
+            </ol>
+        </p>
+        <a href="https://docs.google.com/document/d/13VXM_30P8PLDVO6LvYVcQv-n7hTKrFiNpcmCFXPrKJ0/edit?usp=sharing">
+            Более подробно
+        </a>
     </section>
 
     <footer>
@@ -138,28 +133,5 @@
         </a>
       </nav>
     </footer>
-    <script>
-      var mySwiper = new Swiper(".swiper-container", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination"
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar"
-        }
-      });
-    </script>
   </body>
 </html>
