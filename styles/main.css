@@ -188,3 +188,58 @@ footer {
     padding: 2rem 0;
   }
 }
+
+@media (min-width: 240px) and (max-width: 360px) {
+  body {
+    margin: 0.3rem;
+  }
+  header {
+    position: relative;
+  }
+  header .logo {
+    width: 90%;
+  }
+
+  section {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  h1 {
+    color: #fff;
+  }
+  h1 .top {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    padding: 1rem;
+  }
+  h1 .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 1.2rem;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+  }
+  .menu {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .menu a {
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .socials {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+  }
+}
