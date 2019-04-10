@@ -62,6 +62,9 @@ footer {
     margin: auto;
     max-width: 90%;
   }
+  .main-photo {
+    display: none;
+  }
   header {
     display: flex;
     flex-direction: column;
@@ -150,6 +153,9 @@ footer {
     align-items: stretch;
     justify-content: flex-start;
   }
+  .main-photo {
+    display: none;
+  }
   .call-to-action button,
   .call-to-action small {
     display: block;
@@ -194,6 +200,9 @@ footer {
   body {
     margin: 20px;
   }
+  .main-photo {
+    width: 100%;
+  }
   header {
     position: relative;
   }
@@ -202,6 +211,7 @@ footer {
     margin: auto;
     display: block;
   }
+
   .call-to-action button,
   .call-to-action small {
     display: block;
@@ -239,6 +249,9 @@ footer {
 @media (min-width: 240px) and (max-width: 360px) {
   body {
     margin: 0.3rem;
+  }
+  .main-photo {
+    width: 100%;
   }
   header {
     position: relative;
