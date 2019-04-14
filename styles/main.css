@@ -36,6 +36,16 @@ h3 {
   fill: rgb(45, 114, 175);
 }
 
+ol {
+    list-style: none;
+    counter-reset: li;
+    padding: 0;
+}
+ol > li:before {
+    counter-increment: li;
+    content: counters(li,".") ". ";
+}
+
 footer {
   display: flex;
   flex-direction: column;
