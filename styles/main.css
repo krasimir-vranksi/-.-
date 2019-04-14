@@ -84,6 +84,9 @@ footer {
   div.logo > h1 {
     padding-left: 1.5rem;
   }
+  .slider {
+      width: 60%;
+  }
   .slider,
   .dream {
     display: flex;
