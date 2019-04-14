@@ -132,7 +132,7 @@ footer {
   nav.menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 3rem;
   }
 
@@ -145,6 +145,10 @@ footer {
     display: flex;
     flex-direction: row;
   }
+  nav.menu > a {
+      margin-right: .5rem;
+  }
+
   body {
     margin: auto;
   }
