@@ -25,7 +25,6 @@ nav.menu a {
 h1 {
   font-size: 2rem;
   line-height: 2.3rem;
-  text-align: center;
   color: rgb(45, 114, 175);
 }
 h2,
@@ -70,6 +69,20 @@ footer {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
+  }
+  div.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+  div.logo > img {
+    margin-top: 21px;
+    width: 75px;
+    height: 75px;
+  }
+  div.logo > h1 {
+    padding-left: 1.5rem;
   }
   .slider,
   .dream {
@@ -123,10 +136,10 @@ footer {
     height: 3rem;
   }
 
-  header .logo {
-    display: block;
-    margin: auto;
-  }
+  /*header .logo {*/
+  /*  display: block;*/
+  /*  margin: auto;*/
+  /*}*/
 
   nav.menu {
     display: flex;
@@ -153,6 +166,20 @@ footer {
     align-items: stretch;
     justify-content: flex-start;
   }
+  div.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+  div.logo > img {
+    margin-top: 21px;
+    width: 75px;
+    height: 75px;
+  }
+  div.logo > h1 {
+    padding-left: 1.5rem;
+  }
   .main-photo {
     display: none;
   }
@@ -164,10 +191,10 @@ footer {
   .call-to-action small {
     color: #6a6a6a;
   }
-  header .logo {
-    display: block;
-    margin: auto;
-  }
+  /*header .logo {*/
+  /*  display: block;*/
+  /*  margin: auto;*/
+  /*}*/
   nav {
     display: flex;
     flex-direction: row;
@@ -206,11 +233,26 @@ footer {
   header {
     position: relative;
   }
-  .logo {
-    width: 100%;
-    margin: auto;
-    display: block;
+  div.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
   }
+  div.logo > img {
+    margin-top: 21px;
+    width: 75px;
+    height: 75px;
+  }
+  div.logo > h1 {
+    padding-left: 1.5rem;
+  }
+
+  /*.logo {*/
+  /*  width: 100%;*/
+  /*  margin: auto;*/
+  /*  display: block;*/
+  /*}*/
 
   .call-to-action button,
   .call-to-action small {
