@@ -37,13 +37,13 @@ h3 {
 }
 
 ol {
-    list-style: none;
-    counter-reset: li;
-    padding: 0;
+  list-style: none;
+  counter-reset: li;
+  padding: 0;
 }
 ol > li:before {
-    counter-increment: li;
-    content: counters(li,".") ". ";
+  counter-increment: li;
+  content: counters(li, ".") ". ";
 }
 
 footer {
@@ -95,7 +95,21 @@ footer {
     padding-left: 1.5rem;
   }
   .slider {
-      width: 60%;
+    width: 60%;
+  }
+  .program-preview {
+    display: flex;
+    flex-direction: column;
+  }
+  .program-preview .sections {
+    display: flex;
+    flex-direction: row;
+  }
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    flex: 1;
   }
   .slider,
   .dream {
@@ -159,7 +173,7 @@ footer {
     flex-direction: row;
   }
   nav.menu > a {
-      margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   body {
@@ -199,6 +213,15 @@ footer {
   }
   .main-photo {
     display: none;
+  }
+  .program-preview {
+    display: flex;
+    flex-direction: column;
+  }
+  .program-preview .sections {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
   }
   .call-to-action button,
   .call-to-action small {
@@ -243,6 +266,12 @@ footer {
 @media (min-width: 360px) and (max-width: 768px) {
   body {
     margin: 20px;
+  }
+  .program-preview {
+    display: none;
+  }
+  .program-preview {
+    display: none;
   }
   .main-photo {
     width: 100%;
