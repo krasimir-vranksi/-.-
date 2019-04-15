@@ -101,6 +101,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .program-preview .intro {
+    margin-bottom: 1rem;
+  }
   .program-preview .sections {
     display: flex;
     flex-direction: row;
@@ -222,6 +225,9 @@ footer {
   .program-preview {
     display: flex;
     flex-direction: column;
+  }
+  .program-preview .intro {
+    margin-bottom: 1rem;
   }
   .program-preview .sections {
     display: flex;
