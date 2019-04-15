@@ -150,6 +150,11 @@ footer {
   .call-to-action small {
     color: #6a6a6a;
   }
+
+  footer .call-to-action {
+    margin: 1rem 0;
+  }
+
   .slider .swiper-container {
     display: flex;
     flex: 1;
